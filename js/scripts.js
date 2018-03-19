@@ -4,5 +4,5 @@ var dinozaurUpperCased = dinosaur.toUpperCase();
 
 var textReplace = text.replace('Velociraptor', dinozaurUpperCased);
 
-var textHalf = textReplace.substr(0, 72.5);
-console.log(textHalf);
+console.log(textReplace.substr(0, text.length/2));
+
